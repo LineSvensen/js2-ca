@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "npx tailwindcss -i ./src/tailwind.css -o ./dist/css/tailwind.css -w",
     "build": "npx tailwindcss -i ./src/tailwind.css -o ./dist/css/tailwind.css --minify",
-    "deploy": "npm run build"
+    "deploy": "npm run build",
+    "vercel-build": "npm run build"
   },
   "keywords": [],
   "author": "",
