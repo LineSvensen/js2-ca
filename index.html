@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Some Website</title>
     <link rel="stylesheet" href="./dist/css/tailwind.css">
-    
 </head>
 <body class="font-Poppins text-black">
     <header class="flex flex-col md:flex-row items-center justify-center text-base p-4 bg-white">
@@ -20,27 +19,25 @@
             </ul>
         </nav>
     </header>
-
-    
-
     <main>
-        <div class="h-screen bg-sand flex items-center justify-center p-4">
-            <div class="text-left text-white p-8 max-w-lg">
-                <h1 class="text-4xl font-bold mb-4">Welcome to the World of Cream</h1>
-                <h2 class="text-lg mb-6">Our creams are amazing, and you should really try them! Help us keep our doors open and skin nourished.</h2>
-                <a href="all-products.html"><button class="bg-white text-black font-semibold shadow hover:bg-warm hover:text-white rounded px-6 py-3 transition duration-300 ease-in-out">See our products</button></a>
+        <div class="h-screen bg-sand flex flex-col md:flex-row items-center justify-center p-4">
+            <div class="text-center md:text-left text-white p-4 sm:p-8 max-w-lg">
+                <h1 class="text-3xl sm:text-4xl font-bold mb-4 sm:mt-4">Welcome to the World of Cream</h1>
+                <h2 class="text-base sm:text-lg mb-6">Our creams are amazing, and you should really try them! Help us keep our doors open and skin nourished.</h2>
+                <a href="all-products.html">
+                    <button class="bg-white text-black font-semibold shadow hover:bg-warm hover:text-white rounded px-4 py-2 sm:px-6 sm:py-3 transition duration-300 ease-in-out">
+                        See our products
+                    </button>
+                </a>
             </div>
-            <div class="ml-12">
-                <img src="assets/cream-splash.png" class="max-w-xs md:max-w-sm lg:max-w-md" alt="Cream Splash">
+            <div class="md:ml-12 mt-4 sm:mt-0">
+                <img src="assets/cream-splash.png" class="w-40 md:w-64" alt="Cream Splash">
             </div>
         </div>    
     </main>
-
-  
     <footer class="flex flex-col md:flex-row  justify-between items-center px-4 py-2 bg-bean text-white">
         <p class="px-2 text-center">Copyright ©</p>
         <p class="px-2 text-center">This website was developed by Line Svensen</p>
     </footer>
-    
 </body>
 </html>
